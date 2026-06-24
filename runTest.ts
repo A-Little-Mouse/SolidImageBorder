@@ -6,7 +6,8 @@ async function test() {
     console.log("Started...");
 
     const sticker = await makeSticker(
-      "C:/Users/OnCre/Documents/ViberDownloads/0-02-03-3f010bc01c666cf558b2b13e10330346e36aaf331e6a6d561a9100fb534d768f_12b0169a7d5191ba.jpg",
+      //file path here for testing
+      ""
       10,
     );
 
