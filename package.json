@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "dependencies": {
+    "sharp": "^0.35.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0"
+  },
+  "allowScripts": {
+    "sharp@0.32.6": true,
+    "sharp@0.35.2": true,
+    "onnxruntime-node@1.17.3": true
+  }
+}
