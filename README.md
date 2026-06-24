@@ -1,5 +1,5 @@
 # SolidImageBorder
-Node.js utility built with TypeScript and `sharp` that programmatically applies solid, crisp white vector outlines to shapes and transparent images. 
+Node.js utility built with TypeScript and `sharp` that applies solid, crisp white vector outlines to shapes and transparent images. 
 
 ---
 
