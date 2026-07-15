@@ -8,7 +8,7 @@ async function runTest() {
     const sticker = await makeSticker(
       //file path here for testing
       "",
-      10,
+      { size: 10, color: { r: 255, g: 255, b: 255 }, format: "webp" },
     );
 
     fs.writeFileSync("./output.webp", sticker);
