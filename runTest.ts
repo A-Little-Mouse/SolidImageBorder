@@ -1,13 +1,13 @@
 import fs from "fs";
 import { makeSticker } from "./stickerMaker.ts";
 
-async function test() {
+async function runTest() {
   try {
     console.log("Started...");
 
     const sticker = await makeSticker(
       //file path here for testing
-      ""
+      "",
       10,
     );
 
@@ -18,4 +18,4 @@ async function test() {
   }
 }
 
-test();
+runTest();
